@@ -15,6 +15,7 @@
     {"id":{"name":"obj_thief","path":"objects/obj_thief/obj_thief.yy",},"order":10,},
     {"id":{"name":"obj_grid_manager","path":"objects/obj_grid_manager/obj_grid_manager.yy",},"order":7,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
+    {"id":{"name":"instance_nth_nearest","path":"scripts/instance_nth_nearest/instance_nth_nearest.yy",},"order":1,},
     {"id":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},"order":6,},
     {"id":{"name":"spr_kid_walk_back","path":"sprites/spr_kid_walk_back/spr_kid_walk_back.yy",},"order":9,},
     {"id":{"name":"spr_kid_idle","path":"sprites/spr_kid_idle/spr_kid_idle.yy",},"order":5,},
