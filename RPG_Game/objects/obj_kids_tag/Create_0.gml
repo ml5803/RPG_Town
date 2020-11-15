@@ -21,7 +21,7 @@ function getDestination()
 	}
 	else
 	{
-		nearest_inst = instance_nearest(x, y, obj_kids_tag);
+		nearest_inst = instance_nth_nearest(x, y, obj_kids_tag, 2);
 		
 		des_x = nearest_inst.x;
 		des_y = nearest_inst.y
