@@ -1,20 +1,13 @@
 path = path_add()
-poss_destinations = [[44,356], [44,448], [310,435], [316,362], [577,474], [198, 204], [260,105], [320,277]]
+poss_destinations = [[44,356], [60, 360], [170, 410], [275, 375], [200, 360], [80, 425], [140, 400], [130, 360]]
 num_des = 8
+is_it = false;
 mspd = 0.5
-wait_at_location = 150
+wait_at_location = 75
 curr_wait_time = 0
 
 at_location = false
 
-if (global.tag_list[0].x == x && global.tag_list[0].y == y)
-{
-	is_it = true;
-}
-else
-{
-	is_it = false;
-}
 
 function getDestination()
 {

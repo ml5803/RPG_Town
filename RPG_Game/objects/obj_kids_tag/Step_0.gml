@@ -5,6 +5,12 @@ if (is_it == true)
 	nearest_inst = instance_nearest(x, y, obj_kids_tag);
 	des_x = nearest_inst.x;
 	des_y = nearest_inst.y;
+	
+	mspd = 1.0;
+}
+else
+{
+	mspd = 0.5;
 }
 
 if(point_distance(x,y,des_x,des_y) <= 10){
