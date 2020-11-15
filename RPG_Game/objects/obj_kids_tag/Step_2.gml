@@ -16,7 +16,7 @@ if (is_it == false)
 		sprite_index = spr_kid_idle
 	}
 }
-else
+else if (is_it == true)
 {
 	image_xscale = 1
 	if (xprevious < x){
